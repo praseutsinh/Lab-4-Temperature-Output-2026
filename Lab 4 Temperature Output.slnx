@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lab 4 Temperature Output/Lab 4 Temperature Output.vcxproj" Id="282cb63c-4629-425c-aa6e-3452511c4a2f" />
+</Solution>
