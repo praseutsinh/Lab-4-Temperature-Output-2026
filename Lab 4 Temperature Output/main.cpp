@@ -12,19 +12,21 @@ Inputs temperature in Celsius and outputs in graph
 #include <iomanip>
 #include <cmath>
 
+
+// Figures out how many spaces the number takes
 int digitCount(int number) {
     int count = 1;
-
+    // Adds 1 if number is negative because of the negative sign
     if (number < 0) {
         count++;
         number = std::abs(number);
     }
-
+    // Counts the amount of digits in the number
     while (number >= 10) {
         number /= 10;
         count++;
     }
-
+    // Returns the amount of spaces the number takes
     return count;
 }
 
